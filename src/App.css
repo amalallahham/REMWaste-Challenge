@@ -1,0 +1,94 @@
+.content {
+  padding: 2rem;
+  height: 100%;
+}
+
+.layout-padding {
+  padding: 0px 50px;
+}
+
+.m-0 {
+  margin: 0rem;
+}
+
+.m-1 {
+  margin: 0.5rem;
+}
+
+.m-2 {
+  margin: 1rem;
+}
+
+.mt-2 {
+  margin-top: 0.5rem;
+}
+
+.m-3 {
+  margin: 1.5rem;
+}
+
+.my-1 {
+  margin: 0.5rem 0rem;
+}
+
+.my-2 {
+  margin: 1rem 0rem;
+}
+
+.my-3 {
+  margin: 1.5rem 0rem;
+}
+
+.p-0 {
+  padding: 0rem;
+}
+
+.p-1 {
+  padding: 0.5rem;
+}
+
+.p-2 {
+  padding: 1rem;
+}
+
+.p-3 {
+  padding: 1.5rem;
+}
+
+.py-1 {
+  padding: 0.5rem 0rem;
+}
+
+.py-2 {
+  padding: 1rem 0rem;
+}
+
+.py-3 {
+  padding: 1.5rem 0rem;
+}
+
+.px-1 {
+  padding: 0rem 0.5rem;
+}
+
+.px-2 {
+  padding: 0rem 1rem;
+}
+
+.px-3 {
+  padding: 0rem 1.5rem;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.h-100 {
+  height: 100%;
+}
+
+@media (max-width: 768px) {
+  .layout-padding {
+    padding: 0rem;
+  }
+}

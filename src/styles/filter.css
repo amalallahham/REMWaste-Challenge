@@ -1,0 +1,163 @@
+.search {
+  width: 60%;
+}
+
+.size-card {
+  width: fit-content;
+  border-radius: 50px !important;
+}
+
+.size-card.ant-card .ant-card-body {
+  padding: 1rem;
+}
+
+.margin-bottom-4 {
+  padding-bottom: 5rem;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.center {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.image-sk {
+  border-radius: 50px;
+  max-height: 460px;
+  height: 100%;
+}
+
+.price {
+  font-size: 80px;
+  color: #fff1b8;
+}
+
+.fade-in {
+  animation: fadeInAnimation 0.5s ease-in-out;
+}
+
+@keyframes fadeInAnimation {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.image-wrapper {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+.image-wrapper img {
+  display: block;
+  width: 100%;
+  border-radius: 12px;
+}
+
+.image-gradient-blur::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 50%;
+  border-radius: 0 0 12px 12px;
+  background: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, #26261c 100%);
+  pointer-events: none;
+}
+
+.price-col {
+  position: absolute;
+  bottom: 0%;
+  padding: 2rem;
+}
+
+.large-tag {
+  font-size: 20px;
+  padding: 6px 12px;
+  border-radius: 12px;
+  display: inline-flex;
+  align-items: center;
+}
+
+.large-tag span {
+  font-size: 20px;
+}
+
+.text-grey {
+  color: #595959;
+  font-size: 20px;
+}
+
+.abs-footer {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  background-color: white;
+  right: 0;
+  left: 0;
+  padding: 1rem;
+  border-top: 1px solid #bfbfbf;
+}
+
+.btns-size {
+  width: 50px;
+  height: 50px;
+}
+
+@media (max-width: 768px) {
+  .size-card .ant-card-body {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    padding: 12px;
+  }
+
+  .size-card.ant-card .ant-card-body {
+    padding: 0.4rem;
+  }
+
+  .btns-size {
+    width: 25px;
+    height: 25px;
+    min-width: auto !important;
+  }
+
+  .image-sk {
+    min-height: 400px;
+    height: 100%;
+  }
+}
+
+/* second ui */
+
+.price-abs {
+  position: absolute;
+  top: 10rem;
+  background-color: #fbffff;
+  padding: .5rem  1rem;
+  border-radius: 20px;
+  right: 1rem;
+  font-size: 25px;
+  color: #1f3fbc;
+}
+
+
+.abs-top {
+  position: absolute;
+  top: .5rem;
+}
+
