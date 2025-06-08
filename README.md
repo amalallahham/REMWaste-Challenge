@@ -51,4 +51,38 @@ This project uses **Redux Toolkit** to demonstrate understanding of:
 
 ---
 
-Feel free to contribute or fork this repo!
+## 📁 Project Structure
+
+```
+src/
+│
+├── assets/               # Fonts and static assets
+│   └── fonts/
+│
+├── components/           # Main page components
+│   ├── filter.jsx        #reusable filter Component
+│   ├── filterDrawer.jsx  #sidebar component
+│   ├── skipps.jsx        #first UI with the filter
+│   ├── skipSelectionStep.jsx     #second UI
+│   └── stepper.jsx         #recreating Stepper
+│
+├── hooks/                # Custom hooks (e.g. debounce)
+│
+├── styles/               # Global/custom styles
+│   └── App.css
+│
+├── store/                # Redux logic
+│   ├── reducers/
+│   │   ├── filterSlice.js
+│   │   └── themeSlice.js
+│   ├── services/
+│   │   └── skipsApi.js
+│   └── store.js
+│
+├── App.jsx               # App entry component
+├── index.css             # Root CSS
+├── main.jsx              # Entry point for Vite
+```
+
+---
+
