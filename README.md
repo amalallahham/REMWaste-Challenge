@@ -1,12 +1,54 @@
-# React + Vite
+# Skip Booking UI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a skip selection interface built using **React**, **Ant Design**, **Redux**, and **Redux Toolkit (RTK)**. The application allows users to choose skip sizes, filter options, and switch between two user interface (UI) experiences.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🧰 Tech Stack
 
-## Expanding the ESLint configuration
+- React
+- Ant Design (antd)
+- Redux
+- Redux Toolkit (RTK)
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🚀 How to Run
+
+1. **Install dependencies**  
+   Run the following command in your terminal:
+
+   ```bash
+   npm install
+   ```
+
+2. **Start the development server**
+
+   ```bash
+   npm start
+   ```
+
+   The app will open at `http://localhost:3000`.
+
+---
+
+## 🎛 Switching UI Modes
+
+At the top of the page, you'll see a **"Change UI"** button.
+
+- **Default UI (UI mode)**: Focuses on **choosing skip sizes** visually.
+- **Alternate UI (UX mode)**: Focuses on **filtering and searching** skip types based on user criteria like price, size, and permissions.
+
+---
+
+## 🎯 Purpose
+
+This project uses **Redux Toolkit** to demonstrate understanding of:
+
+- Global state management
+- Reducers and slices
+- Connecting UI components to Redux state
+
+---
+
+Feel free to contribute or fork this repo!
